@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B461FBA61E3701FB001421DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B461FBA51E3701FB001421DC /* main.m */; };
+		B461FBA91E3701FB001421DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B461FBA81E3701FB001421DC /* AppDelegate.m */; };
+		B461FBAC1E3701FB001421DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B461FBAB1E3701FB001421DC /* ViewController.m */; };
+		B461FBAF1E3701FB001421DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B461FBAD1E3701FB001421DC /* Main.storyboard */; };
+		B461FBB11E3701FB001421DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B461FBB01E3701FB001421DC /* Assets.xcassets */; };
+		B461FBB41E3701FB001421DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B461FBB21E3701FB001421DC /* LaunchScreen.storyboard */; };
+		B461FBBF1E3701FB001421DC /* BWiOSJenkinsCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B461FBBE1E3701FB001421DC /* BWiOSJenkinsCITests.m */; };
+		B461FBCA1E3701FB001421DC /* BWiOSJenkinsCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B461FBC91E3701FB001421DC /* BWiOSJenkinsCIUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B461FBBB1E3701FB001421DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B461FB991E3701FB001421DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B461FBA01E3701FB001421DC;
+			remoteInfo = BWiOSJenkinsCI;
+		};
+		B461FBC61E3701FB001421DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B461FB991E3701FB001421DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B461FBA01E3701FB001421DC;
+			remoteInfo = BWiOSJenkinsCI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B461FBA11E3701FB001421DC /* BWiOSJenkinsCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSJenkinsCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B461FBA51E3701FB001421DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B461FBA71E3701FB001421DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B461FBA81E3701FB001421DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B461FBAA1E3701FB001421DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B461FBAB1E3701FB001421DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B461FBAE1E3701FB001421DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B461FBB01E3701FB001421DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B461FBB31E3701FB001421DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B461FBB51E3701FB001421DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B461FBBA1E3701FB001421DC /* BWiOSJenkinsCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSJenkinsCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B461FBBE1E3701FB001421DC /* BWiOSJenkinsCITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSJenkinsCITests.m; sourceTree = "<group>"; };
+		B461FBC01E3701FB001421DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B461FBC51E3701FB001421DC /* BWiOSJenkinsCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSJenkinsCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B461FBC91E3701FB001421DC /* BWiOSJenkinsCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSJenkinsCIUITests.m; sourceTree = "<group>"; };
+		B461FBCB1E3701FB001421DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B461FBD71E3702BB001421DC /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B461FB9E1E3701FB001421DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBB71E3701FB001421DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBC21E3701FB001421DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B461FB981E3701FB001421DC = {
+			isa = PBXGroup;
+			children = (
+				B461FBD71E3702BB001421DC /* build.sh */,
+				B461FBA31E3701FB001421DC /* BWiOSJenkinsCI */,
+				B461FBBD1E3701FB001421DC /* BWiOSJenkinsCITests */,
+				B461FBC81E3701FB001421DC /* BWiOSJenkinsCIUITests */,
+				B461FBA21E3701FB001421DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B461FBA21E3701FB001421DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B461FBA11E3701FB001421DC /* BWiOSJenkinsCI.app */,
+				B461FBBA1E3701FB001421DC /* BWiOSJenkinsCITests.xctest */,
+				B461FBC51E3701FB001421DC /* BWiOSJenkinsCIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B461FBA31E3701FB001421DC /* BWiOSJenkinsCI */ = {
+			isa = PBXGroup;
+			children = (
+				B461FBA71E3701FB001421DC /* AppDelegate.h */,
+				B461FBA81E3701FB001421DC /* AppDelegate.m */,
+				B461FBAA1E3701FB001421DC /* ViewController.h */,
+				B461FBAB1E3701FB001421DC /* ViewController.m */,
+				B461FBAD1E3701FB001421DC /* Main.storyboard */,
+				B461FBB01E3701FB001421DC /* Assets.xcassets */,
+				B461FBB21E3701FB001421DC /* LaunchScreen.storyboard */,
+				B461FBB51E3701FB001421DC /* Info.plist */,
+				B461FBA41E3701FB001421DC /* Supporting Files */,
+			);
+			path = BWiOSJenkinsCI;
+			sourceTree = "<group>";
+		};
+		B461FBA41E3701FB001421DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B461FBA51E3701FB001421DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B461FBBD1E3701FB001421DC /* BWiOSJenkinsCITests */ = {
+			isa = PBXGroup;
+			children = (
+				B461FBBE1E3701FB001421DC /* BWiOSJenkinsCITests.m */,
+				B461FBC01E3701FB001421DC /* Info.plist */,
+			);
+			path = BWiOSJenkinsCITests;
+			sourceTree = "<group>";
+		};
+		B461FBC81E3701FB001421DC /* BWiOSJenkinsCIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B461FBC91E3701FB001421DC /* BWiOSJenkinsCIUITests.m */,
+				B461FBCB1E3701FB001421DC /* Info.plist */,
+			);
+			path = BWiOSJenkinsCIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B461FBA01E3701FB001421DC /* BWiOSJenkinsCI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B461FBCE1E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCI" */;
+			buildPhases = (
+				B461FB9D1E3701FB001421DC /* Sources */,
+				B461FB9E1E3701FB001421DC /* Frameworks */,
+				B461FB9F1E3701FB001421DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWiOSJenkinsCI;
+			productName = BWiOSJenkinsCI;
+			productReference = B461FBA11E3701FB001421DC /* BWiOSJenkinsCI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B461FBB91E3701FB001421DC /* BWiOSJenkinsCITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B461FBD11E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCITests" */;
+			buildPhases = (
+				B461FBB61E3701FB001421DC /* Sources */,
+				B461FBB71E3701FB001421DC /* Frameworks */,
+				B461FBB81E3701FB001421DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B461FBBC1E3701FB001421DC /* PBXTargetDependency */,
+			);
+			name = BWiOSJenkinsCITests;
+			productName = BWiOSJenkinsCITests;
+			productReference = B461FBBA1E3701FB001421DC /* BWiOSJenkinsCITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B461FBC41E3701FB001421DC /* BWiOSJenkinsCIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B461FBD41E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCIUITests" */;
+			buildPhases = (
+				B461FBC11E3701FB001421DC /* Sources */,
+				B461FBC21E3701FB001421DC /* Frameworks */,
+				B461FBC31E3701FB001421DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B461FBC71E3701FB001421DC /* PBXTargetDependency */,
+			);
+			name = BWiOSJenkinsCIUITests;
+			productName = BWiOSJenkinsCIUITests;
+			productReference = B461FBC51E3701FB001421DC /* BWiOSJenkinsCIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B461FB991E3701FB001421DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BobWong;
+				TargetAttributes = {
+					B461FBA01E3701FB001421DC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R6L6VZZQ6L;
+						ProvisioningStyle = Manual;
+					};
+					B461FBB91E3701FB001421DC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B461FBA01E3701FB001421DC;
+					};
+					B461FBC41E3701FB001421DC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B461FBA01E3701FB001421DC;
+					};
+				};
+			};
+			buildConfigurationList = B461FB9C1E3701FB001421DC /* Build configuration list for PBXProject "BWiOSJenkinsCI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B461FB981E3701FB001421DC;
+			productRefGroup = B461FBA21E3701FB001421DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B461FBA01E3701FB001421DC /* BWiOSJenkinsCI */,
+				B461FBB91E3701FB001421DC /* BWiOSJenkinsCITests */,
+				B461FBC41E3701FB001421DC /* BWiOSJenkinsCIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B461FB9F1E3701FB001421DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B461FBB41E3701FB001421DC /* LaunchScreen.storyboard in Resources */,
+				B461FBB11E3701FB001421DC /* Assets.xcassets in Resources */,
+				B461FBAF1E3701FB001421DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBB81E3701FB001421DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBC31E3701FB001421DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B461FB9D1E3701FB001421DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B461FBAC1E3701FB001421DC /* ViewController.m in Sources */,
+				B461FBA91E3701FB001421DC /* AppDelegate.m in Sources */,
+				B461FBA61E3701FB001421DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBB61E3701FB001421DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B461FBBF1E3701FB001421DC /* BWiOSJenkinsCITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461FBC11E3701FB001421DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B461FBCA1E3701FB001421DC /* BWiOSJenkinsCIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B461FBBC1E3701FB001421DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B461FBA01E3701FB001421DC /* BWiOSJenkinsCI */;
+			targetProxy = B461FBBB1E3701FB001421DC /* PBXContainerItemProxy */;
+		};
+		B461FBC71E3701FB001421DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B461FBA01E3701FB001421DC /* BWiOSJenkinsCI */;
+			targetProxy = B461FBC61E3701FB001421DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B461FBAD1E3701FB001421DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B461FBAE1E3701FB001421DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B461FBB21E3701FB001421DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B461FBB31E3701FB001421DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B461FBCC1E3701FB001421DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B461FBCD1E3701FB001421DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B461FBCF1E3701FB001421DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R6L6VZZQ6L;
+				INFOPLIST_FILE = BWiOSJenkinsCI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.wash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16346eab-e084-423a-bf8e-f0057401fa9b";
+				PROVISIONING_PROFILE_SPECIFIER = dev_R6L6VZZQ6L.cn.com.bluemoon.wash_87_1107;
+			};
+			name = Debug;
+		};
+		B461FBD01E3701FB001421DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = R6L6VZZQ6L;
+				INFOPLIST_FILE = BWiOSJenkinsCI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.wash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f68640de-b6da-40c5-b473-e94eff3ae7ae";
+				PROVISIONING_PROFILE_SPECIFIER = dis_R6L6VZZQ6L.cn.com.bluemoon.wash_1107;
+			};
+			name = Release;
+		};
+		B461FBD21E3701FB001421DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BWiOSJenkinsCITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSJenkinsCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWiOSJenkinsCI.app/BWiOSJenkinsCI";
+			};
+			name = Debug;
+		};
+		B461FBD31E3701FB001421DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BWiOSJenkinsCITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSJenkinsCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWiOSJenkinsCI.app/BWiOSJenkinsCI";
+			};
+			name = Release;
+		};
+		B461FBD51E3701FB001421DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BWiOSJenkinsCIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSJenkinsCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWiOSJenkinsCI;
+			};
+			name = Debug;
+		};
+		B461FBD61E3701FB001421DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BWiOSJenkinsCIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWiOSJenkinsCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWiOSJenkinsCI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B461FB9C1E3701FB001421DC /* Build configuration list for PBXProject "BWiOSJenkinsCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B461FBCC1E3701FB001421DC /* Debug */,
+				B461FBCD1E3701FB001421DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B461FBCE1E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B461FBCF1E3701FB001421DC /* Debug */,
+				B461FBD01E3701FB001421DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B461FBD11E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B461FBD21E3701FB001421DC /* Debug */,
+				B461FBD31E3701FB001421DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B461FBD41E3701FB001421DC /* Build configuration list for PBXNativeTarget "BWiOSJenkinsCIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B461FBD51E3701FB001421DC /* Debug */,
+				B461FBD61E3701FB001421DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B461FB991E3701FB001421DC /* Project object */;
+}
